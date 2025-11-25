@@ -64,13 +64,12 @@ Next n−1 lines: the upper-triangular entries C[i][j], i < j
 
 **Example:**
 
+```
 4
-
 10 15 50
-
 40 20
-
 35
+```
 
 Whitespace is not significant.
 
