@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------
 ## 1. Recurrence Relation
-------------------------------------------------------------
+
 Let C[a][b] be the direct cost of renting a canoe from post a 
 to post b (a < b). Let OPT[a][b] be the minimum cost of 
 traveling from post a to post b using any sequence of rentals.
@@ -30,7 +30,7 @@ minimum so the optimal route can be reconstructed.
 
 ------------------------------------------------------------
 ## 2. Dynamic Programming Strategy
-------------------------------------------------------------
+
 The OPT table is filled in order of increasing interval length 
 (b - a). Smaller subproblems OPT[k][b] are computed first, 
 so they are available when computing OPT[a][b].
@@ -42,7 +42,7 @@ Example order of computation:
 
 ------------------------------------------------------------
 ## 3. Time Complexity
-------------------------------------------------------------
+
 There are O(n^2) distinct subproblems OPT[a][b].
 
 For each pair (a, b), the algorithm checks all intermediate 
@@ -57,7 +57,7 @@ interval dynamic programming.
 
 ------------------------------------------------------------
 ## 4. Space Complexity
-------------------------------------------------------------
+
 The program stores:
 
 • direct cost matrix C[a][b]      : O(n^2)
@@ -68,7 +68,7 @@ Total space usage: O(n^2).
 
 ------------------------------------------------------------
 ## 5. Summary
-------------------------------------------------------------
+
 The canoe trip problem is solved using a classic interval-based
 dynamic programming approach. The recurrence relation ensures 
 optimal substructure, and the split table allows the exact rental 
