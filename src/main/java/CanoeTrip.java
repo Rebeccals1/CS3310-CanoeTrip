@@ -1,6 +1,6 @@
 /**************************************************************/
 /* Rebecca Smith                                              */
-/* Login ID: your_login_here                                  */
+/* Login ID: your_ID_here                                  */
 /* CS 3310, Fall 2025                                         */
 /* Programming Assignment 3                                   */
 /* CanoeTrip: loads inputA.txt, inputB.txt, inputC.txt from   */
